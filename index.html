@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MCH</title>	
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">	
+	<meta name="viewport" content="width=device-width">
+</head>
+<body id="override">	
+	<main class="main">		
+		<section class="model">			
+			<div class="model_wrapper">				
+				<div class="model_obj">					
+					<model-viewer id="pan-demo" src="model/Yral.glb" alt="A 3D model of an fire extinguisher" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls>	
+						<button slot="ar-button" class="border-button model_btn pos_btn">Открыть в AR</button>							
+					</model-viewer>				
+				</div>				
+				<div class="model_info">					
+					<div class="model_picture">						
+						<picture>
+							<source srcset="img/Vector.webp" type="image/webp"><img src="img/Vector.png" alt="">
+						</picture>					
+					</div>					
+						<div class="model_title">Пожарная Машина<br> Урал</div>					
+						<div class="model_subtitle">
+							Пожарные машины «УРАЛ» зарекомендовали себя как надежные техсредства для проведения спасательных операций вне зависимости от географических и климатических особенностей местности. Одно из главных достоинств этой марки – высокая проходимость по бездорожью. Автомобили преодолевают снежную целину, вертикальное препятствие высотой до 55 см, 20° косогоры, водяные препятствия глубиной до 1.75 метра и рвы шириной до 1.20 метра
+						</div>        			
+						<button class="model_btn border-button" id="pc_btn">Открыть в VR</button>				
+				</div>			
+			</div>		
+		</section>	
+	</main>	
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>	
+		<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
