@@ -10,9 +10,9 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 	pos_btn.style.zIndex = '100';
 	pos_btn.style.bottom = '-70%';
 	pos_btn.style.left = '4rem';
-	info.style.padding = '4.375rem 16.25rem 7.75rem 3.94rem';
+	info.style.padding = '4.375rem 4.25rem 7.75rem 3.94rem';
 }else{
-	info.style.padding = '4.375rem 16.25rem 3.75rem 3.94rem';
+	info.style.padding = '4.375rem 4.25rem 3.75rem 3.94rem';
 }
 
 
