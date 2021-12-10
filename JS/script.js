@@ -23,17 +23,5 @@ pc_btn.addEventListener("click", function(){
 });
 
 
-const acc = document.querySelector('.accordion_btn');
-const acc_info = document.querySelector('.accordion_info');
-const acc_target = document.querySelector('.accordion_target')
-
-acc.addEventListener('click', function(){
-  acc_info.classList.toggle('is-active');
-  acc.classList.toggle('is-active');
-  acc_target.classList.toggle('is-active');
-});
-
-
-
 
 
