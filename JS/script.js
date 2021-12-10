@@ -4,7 +4,7 @@ const pc_btn = document.getElementById('pc_btn');
 
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-   	pc_btn.style.display = 'block';
+   	pc_btn.style.display = 'none';
 
 	pos_btn.style.position = 'absolute';
 	pos_btn.style.zIndex = '100';
